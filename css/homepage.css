@@ -115,20 +115,39 @@ div.featured{
     width: 100vw;
     margin: 0%;
     padding: 0%;
+    margin-top: 5vh;
+    padding-top: 8vh;
+    padding-left: 10vw;
 }
 .notificationBar h3{
     color: #000000;
+    padding-bottom: 3vh;
+    font-weight: 600;
+    width: 40vw;
 }
 .notificationBar p{
     color: #000000;
+    padding-bottom: 3vh;
+    font-weight: 100;
+    width: 40vw;
 }
 .emailBox{
-
+    padding-bottom: 8vh;
 }
 .emailBox input{
-
+    margin: 0vw;
+    padding: 0vw;
+    height: 3.5em;
+    width: 20em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    display: inline;
 }
 .emailBox button{
-
+    margin: 0vw;
+    padding: 0vw;
+    height: 3.7em;
+    width: 8em;
+    display: inline;
 }
 /*Notification Part End*/
