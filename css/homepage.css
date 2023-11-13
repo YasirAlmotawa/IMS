@@ -153,3 +153,21 @@ div.featured{
     background-color: rgba(0, 0, 0, 0.4);
 }
 /*Notification Part End*/
+/*Get In Touch Part Beginning*/
+.getInTouch{
+    text-align: center;
+    padding-top: 4.5vh;
+    padding-bottom: 4.5vh;
+}
+.getInTouch h3{
+    color: black;
+    font-weight: 600;
+}
+.getInTouch p{
+    color: black;
+    font-weight: 100;
+}
+.getInTouch a i{
+
+}
+/*Get In Touch Part End*/
