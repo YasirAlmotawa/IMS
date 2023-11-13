@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.header{
+    height: 12px;
+    background-color: #f685a2;
+    margin: 0px;
+}
+.banner{
+    margin: 0px;
+}
+.banner div div,h1,h3,p{
+    margin: 0%;
+    padding: 0%;
+    color: #f685a2;
+}
+div.banner{
+    width: 100%;
+    height:60vh;
+    background: url("../images/banner3.png") no-repeat center center;
+    background-size: cover;
+    
+}
+.banner div h1{
+    margin-left: 15%;
+    padding-top: 6%;
+    font-size: 300%;
+    font-weight: 200;
+    text-shadow: 0 0 3px #000000, 0 0 0px #000000;
+}
+.banner div h3{
+    margin-left: 15%;
+    padding-bottom: 0.9%;
+    font-size: 120%;
+    font-weight: 200;
+    text-shadow: 0 0 1px #000000, 0 0 0px #000000;
+}
+.banner div p{
+    color: white;
+    margin-left: 15%;
+    width: 30vw;
+    font-size: 100%;
+    text-shadow: 0 0 3px #000000, 0 0 0px #000000;
+}
+.banner .bannerIcons{
+    margin-left: 15%;
+    padding-top: 3.2%;
+    background: transparent;
+    height: min-content;
+}
+.banner .bannerIcons a{
+    font-size: large;
+    color: rgb(160, 160, 160);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 0.65em;
+    padding-right: 0.65em;
+    padding-top: 0.55em;
+    padding-bottom: 0.55em;
+    margin: 2.4rem;
+    border-radius: 10em;
+    transition: color 0.5s, background-color 0.5s;
+}
+.banner .bannerIcons a:hover{
+    color: white;
+    background-color: #f685a2;
+    transition: color 0.5s, background-color 0.5s;
+}
+div.featured{
+    display: flex;
+    flex-direction: row;
+    flex:1 1 auto;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 3vw;
+}
+.featured span{
+    width: 20vw;
+}
+.featured span a{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    background-color: #f685a2;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    border-radius: 50%;
+}
+.featured span h3{
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 0.4vw;
+}
+.featured span p{
+    color: #000000;
+    font-weight: 100;
+}
