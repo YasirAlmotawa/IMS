@@ -173,5 +173,25 @@ div.featured{
 
 }
 */
-
+.notificationBar{
+    background-color: rgba(172, 172, 172, 0.3);
+    margin-top: 5vh;
+}
+.notificationBar h3{
+    color: #000000;
+    font-weight: 600;
+    margin-left: 10vw;
+    padding-top: 7vh;
+}
+.notificationBar p{
+    color: #000000;
+    font-weight: 200;
+    margin-left: 10vw;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+}
+.emailBox{
+    margin-left: 10vw;
+    padding-bottom: 7vh;
+}
 /*Notification Part End*/
