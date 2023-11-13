@@ -3,11 +3,13 @@ body{
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif
 }
+/*Header*/
 .header{
     height: 12px;
     background-color: #f685a2;
     margin: 0px;
 }
+/*Banner Beginning*/
 .banner{
     margin: 0px;
 }
@@ -72,6 +74,8 @@ div.banner{
     background-color: #f685a2;
     transition: color 0.5s, background-color 0.5s;
 }
+/*Banner End*/
+/*Featured Beginning*/
 div.featured{
     display: flex;
     flex-direction: row;
@@ -104,3 +108,27 @@ div.featured{
     color: #000000;
     font-weight: 100;
 }
+/*Featured End*/
+/*Notification Part Beginning*/
+.notificationBar{
+    background-color: rgba(172, 172, 172, 0.3);
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+}
+.notificationBar h3{
+    color: #000000;
+}
+.notificationBar p{
+    color: #000000;
+}
+.emailBox{
+
+}
+.emailBox input{
+
+}
+.emailBox button{
+
+}
+/*Notification Part End*/
