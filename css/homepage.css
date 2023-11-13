@@ -193,5 +193,27 @@ div.featured{
 .emailBox{
     margin-left: 10vw;
     padding-bottom: 7vh;
+    position: relative;
+}
+.emailBox input{
+    padding: 2vh;
+    border: none;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+}
+.emailBox button{
+    position: absolute;
+    top: 0;
+    padding: 2vh;
+    border: none;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    background-color: #f685a2;
+    color: white;
+    transition: background-color 0.2s;
+}
+.emailBox button:hover{
+    transition: background-color 0.2s;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 /*Notification Part End*/
