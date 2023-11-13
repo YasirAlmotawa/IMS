@@ -133,6 +133,7 @@ div.featured{
 }
 .emailBox{
     padding-bottom: 8vh;
+    position: relative;
 }
 .emailBox input{
     margin: 0vw;
@@ -141,13 +142,32 @@ div.featured{
     width: 20em;
     border-bottom-left-radius: 1em;
     border-top-left-radius: 1em;
-    display: inline;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+    color: gray;
+    border: gray solid 0.5px;
 }
 .emailBox button{
     margin: 0vw;
     padding: 0vw;
-    height: 3.7em;
+    height: 3.6em;
     width: 8em;
-    display: inline;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border: gray solid 0.5px;
+    background-color: #f685a2;
+    color: white;
+    position: absolute;
+    top: 0;
+
+}
+.emailBox button:hover{
+    transition: color 0.5s, background-color 0.5s;
+    color: rgb(160, 160, 160);
+    background-color: rgba(0, 0, 0, 0.4);
+
 }
 /*Notification Part End*/
