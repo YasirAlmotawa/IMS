@@ -166,8 +166,33 @@ div.featured{
 .getInTouch p{
     color: black;
     font-weight: 100;
+    padding-bottom: 3vh;
 }
-.getInTouch a i{
-
+.getInTouch div{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    margin-top: 0;
+}
+.getInTouch div a i{
+    font-size: 1em;
+    color: rgb(241, 239, 239);
+    padding-top: 1.1vh;
+    padding-bottom: 1.1vh;
+    padding-right: 1.5vh;
+    padding-left: 1.5vh;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    transition: color 0.2s, background-color 0.2s;
+}
+.getInTouch div a i:hover{
+    color: white;
+    background-color: #f685a2;
+    transition: color 0.2s, background-color 0.2s;
 }
 /*Get In Touch Part End*/
