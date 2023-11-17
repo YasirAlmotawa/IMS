@@ -196,3 +196,23 @@ div.featured{
     transition: color 0.2s, background-color 0.2s;
 }
 /*Get In Touch Part End*/
+/*Footer Beginning*/
+.footerBar{
+    background-color: rgba(172, 172, 172, 0.3);
+}
+div.footerBar{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+.footerBar a{
+    color: rgb(141, 141, 141);
+    text-decoration: none;
+}
+/*Footer End*/
