@@ -206,8 +206,8 @@ div.footerBar{
     flex: auto;
     text-align: center;
     justify-content: space-between;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding-left: 22vw;
+    padding-right: 22vw;
     padding-top: 6vh;
     padding-bottom: 6vh;
 }
@@ -215,6 +215,7 @@ div.footerBar{
     color: rgb(141, 141, 141);
     text-decoration: none;
     transition: color 0.3s;
+    font-size: 65%;
 }
 .footerBar a:hover{
     color: #f685a2;
