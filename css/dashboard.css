@@ -9,27 +9,55 @@ body{
 /*Side Bar Start*/
 div.sideBar{
     text-align: center;
-    width: 13vw;
+    /*width: 13vw;*/
+    padding-right: 0.1vw;
+    padding-left: 0.1vw;
     display: inline-block;
+    background-color: rgb(53, 53, 53);
+    height: 100vh;
 }
 .sideTitle{
-
+    color: #f685a2;
+    font-size: 3rem;
+    font-weight: 100;
+    padding: 0vh 5.5vw 0vh 5.5vw;
+    margin: 1.5vh 0 0.5vh 0;
+}
+.sideBar hr{
+    border-top: 0.5px solid;
+    margin: 1vh 0vw 0vh 0vw;
 }
 .profilePic{
-    width: 2.5vw;
+    width: 35px;
     border-radius: 100%;
 }
 .username{
-
+    color: white;
+    vertical-align:60%;
 }
 .dash1{
-
+    text-align: middle;
+    padding-top: 0.9vh;
+    padding-bottom: 0.9vh;
+    transition: background-color 0.2s;
+}
+.dash1 a{
+    color: white;
+    text-decoration: none;
+}
+.dash1 a i{
+    font-size: 1.5rem;
+    padding-right: 0.4rem;
+}
+.dash1:hover{
+    background-color: #f685a2;
+    transition: background-color 0.2s;
 }
 /*Side Bar End*/
 /*Main Part Start*/
 .mainPart{
     display: inline;
-    float:inline-end;
+    float: inline-end;
     clear: both;
     padding: 0%;
 }
