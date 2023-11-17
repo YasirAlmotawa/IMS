@@ -51,8 +51,12 @@ div.banner{
 .banner .bannerIcons{
     margin-left: 15%;
     padding-top: 3.2%;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+    /*
     padding-bottom: 8%;
     margin-bottom: 3%;
+    */
     background: transparent;
     height: min-content;
 }
@@ -72,6 +76,26 @@ div.banner{
     color: white;
     background-color: #f685a2;
     transition: color 0.5s, background-color 0.5s;
+
+}
+.banner .loginButton{
+    text-align: center;
+    padding-bottom: 10vh;
+    padding-top: 2vh;
+}
+.banner .loginButton a{
+    color: #f685a2;
+    text-decoration: none;
+    border: #f685a2 solid;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.25rem;
+    transition: color 0.25s, background-color 0.25s;
+}
+.banner .loginButton a:hover{
+    color: white;
+    background-color: #f685a2;
+    transition: color 0.35s, background-color 0.35s;
 }
 /*Banner End*/
 /*Featured Beginning*/
@@ -206,8 +230,8 @@ div.footerBar{
     flex: auto;
     text-align: center;
     justify-content: space-between;
-    padding-left: 22vw;
-    padding-right: 22vw;
+    padding-left: 17vw;
+    padding-right: 17vw;
     padding-top: 6vh;
     padding-bottom: 6vh;
 }
@@ -215,7 +239,7 @@ div.footerBar{
     color: rgb(141, 141, 141);
     text-decoration: none;
     transition: color 0.3s;
-    font-size: 65%;
+    font-size: 80%;
 }
 .footerBar a:hover{
     color: #f685a2;
