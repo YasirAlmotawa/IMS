@@ -1,0 +1,42 @@
+/*Page Pre-Set*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+/*#f685a2*/
+/*Page Pre-Set*/
+/*Side Bar Start*/
+div.sideBar{
+    text-align: center;
+    width: 13vw;
+    display: inline-block;
+}
+.sideTitle{
+
+}
+.profilePic{
+    width: 2.5vw;
+    border-radius: 100%;
+}
+.username{
+
+}
+.dash1{
+
+}
+/*Side Bar End*/
+/*Main Part Start*/
+.mainPart{
+    display: inline;
+    float:inline-end;
+    clear: both;
+    padding: 0%;
+}
+.topPart{
+
+}
+#break{
+
+}
+/*Main Part End*/
