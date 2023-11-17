@@ -214,5 +214,10 @@ div.footerBar{
 .footerBar a{
     color: rgb(141, 141, 141);
     text-decoration: none;
+    transition: color 0.3s;
+}
+.footerBar a:hover{
+    color: #f685a2;
+    transition: color 0.3s;
 }
 /*Footer End*/
