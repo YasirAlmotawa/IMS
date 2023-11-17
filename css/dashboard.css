@@ -2,17 +2,16 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 /*#f685a2*/
 /*Page Pre-Set*/
 /*Side Bar Start*/
 div.sideBar{
     text-align: center;
-    /*width: 13vw;*/
     padding-right: 0.1vw;
     padding-left: 0.1vw;
-    display: inline-block;
     background-color: rgb(53, 53, 53);
     height: 100vh;
 }
@@ -55,13 +54,10 @@ div.sideBar{
 }
 /*Side Bar End*/
 /*Main Part Start*/
-.mainPart{
-    display: inline;
-    float: inline-end;
-    clear: both;
-    padding: 0%;
+div.mainPart{
+
 }
-.topPart{
+div.topPart{
 
 }
 #break{
