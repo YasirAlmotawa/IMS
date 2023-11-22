@@ -8,24 +8,34 @@
     <script src="https://use.fontawesome.com/0c7a3095b5.js"></script>
 </head>
 <body>
-    <div class="sideBar">
-        <h1>IMS</h1> 
+    <div id="sideBar">
+        <h1 id="sideLogo">IMS</h1> 
         <div>
             <img src="../images/unknownPic.jpg" alt="Profile Picture">
-            <span>Username</span>    
+            <span id="sideSpan">Username</span>    
         </div>
         <ul>
-            <li><a href=""><i class="fa fa-dashboard"> DASHBOARD 1</i> </a></li>
-            <li><a href=""><i class="fa fa-dashboard"> DASHBOARD 2</i> </a></li>
-            <li><a href=""><i class="fa fa-dashboard"> DASHBOARD 3</i> </a></li>
+            <li><a href=""><i class="fa fa-dashboard" id="dash1"> DASHBOARD 1</i> </a></li>
+            <li><a href=""><i class="fa fa-dashboard" id="dash2"> DASHBOARD 2</i> </a></li>
+            <li><a href=""><i class="fa fa-dashboard" id="dash3"> DASHBOARD 3</i> </a></li>
         </ul>
     </div>
-    <div class="mainPart">
+    <div id="mainPart">
         <div>
             <a href="" id="toggleBtn"><i class="fa fa-navicon"></i></a>
             <a href="" id="logoutBtn"><i class="fa fa-power-off"> Log out</i></a>
             <div id="break"></div>
         </div>
     </div>
+    <script>
+        toggleBtn.addEventListener( 'click', e => {
+            e.preventDefault();
+            sideBar.style.minWidth = '45px';
+            sideBar.style.width = '3%';
+            mainPart.style.width = '97%';
+            sideLogo.style.fontSize = '22px';
+            sideSpan.remove();
+        });
+    </script>
 </body>
 </html>
