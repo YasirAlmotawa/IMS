@@ -10,10 +10,9 @@ body{
 /*Side Bar Start*/
 #sideBar{
     background-color: rgb(40, 40, 40);
-    width: 17%;
+    width: max(17%, 170px);
     min-width: 170px;
     height: 100vh;
-    /*width: max-content;*/
 }
 #sideBar h1{
     color: #f685a2;

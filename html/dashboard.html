@@ -28,22 +28,44 @@
         </div>
     </div>
     <script>
+        let toggleBtnDefault = true
         toggleBtn.addEventListener( 'click', e => {
             e.preventDefault();
-            sideBar.style.minWidth = '45px';
-            sideBar.style.width = '3%';
-            mainPart.style.width = '97%';
-            sideLogo.style.fontSize = '20px';
-            profilePic.style.width = '32px';
-            sideSpan.remove();
-            document.getElementById("dash1").innerHTML = "";
-            document.getElementById("dash2").innerHTML = "";
-            document.getElementById("dash3").innerHTML = "";
-            sideBar.style.transition = 'width 0.3s';
-            mainPart.style.transition = 'width 0.3s';
-            sideLogo.style.transition = 'font-size 0.3s';
-            profilePic.style.transition = 'width 0.3s';
+            if(toggleBtnDefault == true){
+                sideBar.style.minWidth = '45px';
+                sideBar.style.width = '3%';
+                mainPart.style.width = '97%';
+                sideLogo.style.fontSize = '20px';
+                profilePic.style.width = '32px';
+                sideSpan.style.display = 'none';
+                document.getElementById("dash1").innerText = "";
+                document.getElementById("dash2").innerText = "";
+                document.getElementById("dash3").innerText = "";
+                sideBar.style.transition = '0.3s all';
+                mainPart.style.transition = '0.3s all';
+                sideLogo.style.transition = '0.3s all';
+                profilePic.style.transition = '0.3s all';
+                toggleBtnDefault = false;
+            }else{
+                sideBar.style.width = 'max(170px, 17%)';
+                mainPart.style.width = '83%';
+                sideLogo.style.fontSize = 'max(35px, 3.3vw)';
+                profilePic.style.width = '32px';
+                sideSpan.style.display = 'contents';
+                sideSpan.style.verticalAlign = '70%';
+                document.getElementById("dash1").innerText = "DASHBOARD";
+                document.getElementById("dash2").innerText = "DASHBOARD";
+                document.getElementById("dash3").innerText = "DASHBOARD";
+                sideBar.style.transition = 'width 0.3s';
+                mainPart.style.transition = '0.3s all';
+                mainPart.style.transition = 'width 0.3s';
+                sideLogo.style.transition = 'font-size 0.3s';
+                profilePic.style.transition = 'width 0.3s';
+                toggleBtnDefault = true;
+            }
         });
+
+        //document.getElementsByClassName('dashboard-menu-list')[0].style.textAlign = 'center';
     </script>
 </body>
 </html>
