@@ -35,3 +35,4 @@ greet('mo');
 //arrayName.ushift()
 //3 == '3'
 //3 !=== '3'
+//delete objectName.objectAttribute for deleting an attribute
